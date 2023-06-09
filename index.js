@@ -14,6 +14,6 @@
       })
       .catch(error => {
         failure.innerText = "Error! Message failed to send. If issue carries on happening, please email: Ammmuza@gmail.com";
-      sucsess.innerHTML = "";
+      success.innerHTML = "";
       })
   })
