@@ -8,12 +8,13 @@
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
+        failure.innerHTMl = "";
         form.reset();
         success.innerHTML = "Thank you! Message Successfully sent, will be in touch soon.";
-      failure.innerHTMl = "";
+      
       })
       .catch(error => {
         failure.innerText = "Error! Message failed to send. If issue carries on happening, please email: Ammmuza@gmail.com";
-      success.innerHTML = "";
+        success.innerHTML = "";
       })
   })
