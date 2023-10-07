@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ollan Muza</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9bcfb099d7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./MyImages/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li>
+              <a href="./MyImages/Ollan-cv.pdf" download
+                ><i class="fa-solid fa-download"></i> Download CV</a
+              >
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hi, I'm <span>Ollan</span></h1>
+          <p>Fullstack Web Developer</p>
+        </div>
+      </div>
+    </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./MyImages/headshot.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a highly motivated web developer with a year's worth of
+              professional experience, driven by an unyielding passion for
+              coding. My journey began with a Mathematics Degree from the
+              University of Leicester, where I quickly discerned that software
+              development was the career path I was destined for. I am dedicated
+              to continuous learning, constantly seeking ways to optimize and
+              enhance my code for peak efficiency. Beyond the realm of
+              programming, I indulge in strategic pursuits such as chess, relish
+              the challenge of basketball, and find inspiration in exploring new
+              destinations through travel.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links">Skills</p>
+              <p class="tab-links">Experience</p>
+              <p class="tab-links">Education</p>
+            </div>
+            <div class="tab-contents" id="Skills">
+              <ul>
+                <li>
+                  <span>Responsive Web Design</span><br />
+                  Creating websites built for mobile, tablets & Desktops
+                </li>
+                <li><span>Using following</span></li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>NodeJS</li>
+                <li>Git Github and version control</li>
+                <li>React</li>
+                <li>EJS</li>
+                <li>MongoDB</li>
+                <li>Rest APIs</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>20213 - Current</span>
+                </li>
+                <li><span>Aside of Code Juniour Developer training:</span></li>
+                <li>
+                  Collaborate in the end-to-end development and maintenance of
+                  innovative web applications, utilising a diverse tech stack
+                  including React.js and Node.js
+                </li>
+                <li>
+                  Collaborated with cross-functional teams, including business
+                  analysts, project managers, and end- users to gather
+                  requirements, design, and develop solutions to improve
+                  business processes and increase efficiency.
+                </li>
+                <li>
+                  Conducted testing, troubleshooting, and debugging to ensure
+                  smooth operation and high performance of the software
+                  applications.
+                </li>
+                <li>
+                  Participation in code input reviews and contributed to the
+                  development of coding standards and best practices.
+                </li>
+                <li>
+                  Manage version control using git/github to manage application
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>University of Leicester</span><br />BSc Mathematics
+                </li>
+                <li>
+                  <span>Palmers Colleger</span><br />A level Mathematics,
+                  Economics, Sports and Exercise Science
+                </li>
+                <li><span>Complete Web Developer 2023 Bootcamp</span></li>
+                <li><span>React Complete Guide</span></li>
+                <li><span>Complete JavaScript Bootcamp</span></li>
+                <li><span>Freecode Camp, Web developer training </span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------services---------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">What I provide</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-database"></i>
+            <h2>Database Utilisation</h2>
+            <p>
+              In the realm of databases, I'm adept at fortifying the backend to
+              guarantee robust site performance. Through the utilization of both
+              NoSQL and SQL databases such as MySQL, MongoDB, and PostgreSQL, I
+              establish a secure foundation for storing and retrieving data.
+              This expertise ensures that information is managed efficiently and
+              safeguarded against potential vulnerabilities. My proficiency in
+              database management not only facilitates seamless operations but
+              also instills confidence in users, knowing their data is treated
+              with the utmost care and security.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Crafting exceptional user interfaces and experiences lies at the
+              heart of my design philosophy. I meticulously sculpt websites,
+              ensuring they offer a seamless and inviting journey for users.
+              Whether working with the fundamental building blocks of HTML and
+              CSS or integrating sophisticated front-end frameworks like React,
+              my goal remains consistent: to provide an environment that feels
+              effortlessly intuitive and visually captivating. By marrying form
+              and function, I aim to create digital spaces that not only please
+              the eye but also leave users with a sense of ease and
+              satisfaction.
+            </p>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Mastering app design is akin to wielding a digital artist's
+              palette, combining aesthetics with seamless functionality. It
+              involves the artful creation of interfaces that not only captivate
+              visually but also guide users through an intuitive journey. From
+              initial sketches to refined designs, an adept app designer has a
+              knack for distilling complex ideas into user-friendly layouts.
+              Their proficiency in design tools and meticulous attention to
+              detail ensure a polished end product. Ultimately, being skilled in
+              app design allows one to shape how individuals engage with
+              technology, leaving a lasting mark in the digital realm.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------portfolio------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./MyImages/todolist.jpeg" />
+            <div class="layer">
+              <h3>Personal To Do list</h3>
+              <p>
+                This is a full stack todolist created to keep track of users
+                personal schedules and see if there is anything they may have
+                planned to do and/or completed.
+              </p>
+              <a
+                href="https://effortless-faun-f6a2e5.netlify.app/"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./MyImages/drumapp.jpeg" />
+            <div class="layer">
+              <h3>Drum app</h3>
+              <p>
+                This is a drum for you to be able to play sounds and create fun
+                and interesting beats.
+              </p>
+              <a href="https://kxngollan.github.io/My-Drum/" target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./MyImages/colourgame.jpeg" />
+            <div class="layer">
+              <h3>Colour Along</h3>
+              <p>
+                This game is desgined to ensure you're able to play a quick and
+                interesting game to see how well your memory is and be able to
+                replicate the colour pattern from start to finish.
+              </p>
+              <a href="https://kxngollan.github.io/Color-Along/" target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See Code <i class="fa-solid fa-code"></i></a>
+      </div>
+    </div>
+    <!-- ----------contact------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> ammmuza@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> +44 7427673621</p>
+            <div class="social-icons">
+              <a href="https://github.com/kxngollan"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/ollan-muza-3bb54326b/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="./MyImages/Ollan-cv.pdf" download class="btn btn2"
+              ><i class="fa-solid fa-download"></i> Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="contactForm">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="YourEmail@Examples.com"
+                required
+              />
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="3"
+                placeholder="Your message"
+              ></textarea>
+
+              <button type="submit" class="btn btn2">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+            <span id="success"></span>
+            <span id="failure"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright © Ollan.</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
