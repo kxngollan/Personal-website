@@ -169,6 +169,7 @@ nav ul li a:hover::after {
 
 .skill-box:hover {
   color: #2400b6;
+  transform: translateY(-5px);
 }
 
 /* ----------------services------------- */
